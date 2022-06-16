@@ -67,8 +67,8 @@ You can test Models
 The content of “property” file for “ms1m_retinaface” dataset is as follows:
 "93431,112,112"
 
-```
-python test.py --model ./results/ViT-P12S8_ms1m_cosface/Backbone_VITs_Epoch_2_Batch_12000_Time_2021-03-17-04-05_checkpoint.pth --network VIT 
+``` 
+python test.py --model ./results/ViT-P12S8_ms1m_cosface/Backbone_VIT_Epoch_2_Batch_20000_Time_2021-01-12-16-48_checkpoint.pth --network VIT  
 
 python test.py --model ./results/ViT-P12S8_ms1m_cosface/Backbone_VITs_Epoch_2_Batch_12000_Time_2021-03-17-04-05_checkpoint.pth --network VITs 
 ```
